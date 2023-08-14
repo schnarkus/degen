@@ -39,7 +39,7 @@ export default function Home() {
                 </div>
                 <div>
                     <img
-                        style={{ width: "25vw", filter: "invert(1)" }}
+                        style={{ height: "25vh", filter: "invert(1)" }}
                         className="m-auto"
                         src="/logo.svg"
                         alt="Logo"
@@ -116,7 +116,7 @@ export default function Home() {
                     </h1>
                     <h1 className="text-center">-wiso, 2023</h1>
                     <img
-                        style={{ width: "20vw" }}
+                        style={{ height: "20vh", width: "auto" }}
                         className="m-auto mt-6"
                         src="/frog2.png"
                         alt="frog"
@@ -141,7 +141,7 @@ export default function Home() {
                         </p>
                     </h1>
                     <img
-                        style={{ width: "45vw" }}
+                        style={{ height: "30vh", width: "auto" }}
                         className="m-auto mt-6"
                         src="/baldeggs.gif"
                         alt="BaldEggs"
@@ -188,7 +188,7 @@ export default function Home() {
                         <p className="text-3xl">
                             4. Profit
                             <img
-                                style={{ width: "10vw" }}
+                                style={{ height: "20vh", width: "auto" }}
                                 className="m-auto mt-10"
                                 src="/4.png"
                                 alt="4"
@@ -210,7 +210,7 @@ export default function Home() {
                                 rel="noopener noreferrer"
                             >
                                 <img
-                                    style={{ width: "20vw" }}
+                                    style={{ height: "15vh", width: "auto" }}
                                     className="m-auto mt-10"
                                     src="/beefy.svg"
                                     alt="beefy"
