@@ -19,13 +19,8 @@ export default function Home() {
             <section id="/" className="h-screen flex grid content-evenly">
                 <div className="m-auto">
                     <h1 className="text-5xl text-center font-bold mt-20">Degen</h1>
-                    <p className="m-auto mt-5 text-3xl text-center font-bold">
-                        The Dust2Earn Crypto
-                    </p>
-                    <p className="m-auto text-center p-10">
-                        Are you a battle-hardened degen who&apos;s been through the trials and
-                        tribulations of the crypto world? Have you felt the sting of a honeypot or
-                        the heartache of a rug pull? Look no further, for{" "}
+                    <p className="m-auto mt-2 text-center p-4">
+                        Experienced degen? Faced honeypots and rug pulls?{" "}
                         <a
                             href="https://optimistic.etherscan.io/address/0xf9e1f4eede806fda20f4084d9f9c4c2b36e38e77"
                             target="_blank"
@@ -34,18 +29,30 @@ export default function Home() {
                         >
                             $DGN
                         </a>{" "}
-                        is here to redefine your degen experience.
+                        redefines your degen journey!
                     </p>
-                </div>
-                <div>
-                    <img
-                        style={{ height: "25vh", filter: "invert(1)" }}
-                        className="m-auto"
-                        src="/logo.svg"
-                        alt="Logo"
-                        width="100%"
-                        height="100%"
-                    />
+                    <p className="m-auto mt-2 text-xl text-center font-bold">
+                        Experience Price Impact
+                    </p>
+                    <p className="m-auto text-center p-4">
+                        Designed with deliberate low liquidity, every $20 buy sends shockwaves
+                        through the chart, instantly displaying the price impact.
+                    </p>
+                    <p className="m-auto mt-2 text-xl text-center font-bold">Unlock Rewards</p>
+                    <p className="m-auto text-center p-4">
+                        Stake your tokens and unlock a world of rewards. Our robust staking
+                        empowers you to reap the benefits for an entire year.
+                    </p>
+                    <div>
+                        <img
+                            style={{ height: "15vh", filter: "invert(1)" }}
+                            className="m-auto"
+                            src="/logo.svg"
+                            alt="Logo"
+                            width="100%"
+                            height="100%"
+                        />
+                    </div>
                 </div>
             </section>
             <section id="buy" className="h-screen flex">
@@ -61,21 +68,6 @@ export default function Home() {
                             className="m-auto"
                             src="/llama.png"
                             alt="Llamas"
-                            width="100%"
-                            height="100%"
-                        />
-                    </a>
-                    <a
-                        href="https://app.velodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0xF9e1F4EEdE806FDA20f4084d9f9c4c2b36E38e77&stable=false"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="ml-10"
-                    >
-                        <img
-                            style={{ width: "10vw" }}
-                            className="m-auto"
-                            src="/velo.svg"
-                            alt="Velo"
                             width="100%"
                             height="100%"
                         />
@@ -102,7 +94,7 @@ export default function Home() {
                         width="100%"
                         id="geckoterminal-embed"
                         title="GeckoTerminal Embed"
-                        src="https://www.geckoterminal.com/optimism/pools/0x97203c53daf858ce36d95997fbfafa8e29122230?embed=1&info=1&swaps=1"
+                        src="https://www.geckoterminal.com/optimism/pools/0xd58006782ed5445450a23f260604efeb87aa8d13?embed=1&info=1&swaps=1"
                         allow="clipboard-write"
                         allowFullScreen
                     ></iframe>
