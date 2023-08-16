@@ -60,36 +60,38 @@ export default function Home() {
             </section>
             <section id="buy" className="h-screen flex">
                 <div className="flex items-center grid content-evenly justify-items-center">
-                    <a
-                        href="https://swap.defillama.com/?chain=optimism&from=0x0000000000000000000000000000000000000000&to=0xF9e1F4EEdE806FDA20f4084d9f9c4c2b36E38e77"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="ml-10"
-                    >
-                        <img
-                            style={{ width: "10vw" }}
-                            className="m-auto"
-                            src="/llama.png"
-                            alt="Llamas"
-                            width="100%"
-                            height="100%"
-                        />
-                    </a>
-                    <a
-                        href="https://app.uniswap.org/#/add/0xF9e1F4EEdE806FDA20f4084d9f9c4c2b36E38e77/0x4200000000000000000000000000000000000006"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="ml-10"
-                    >
-                        <img
-                            style={{ width: "10vw" }}
-                            className="m-auto"
-                            src="/uni.png"
-                            alt="Uni"
-                            width="100%"
-                            height="100%"
-                        />
-                    </a>
+                    <div className="ml-10 mobile-logo">
+                        <a
+                            href="https://swap.defillama.com/?chain=optimism&from=0x0000000000000000000000000000000000000000&to=0xF9e1F4EEdE806FDA20f4084d9f9c4c2b36E38e77"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                style={{ width: "10vw" }}
+                                className="m-auto"
+                                src="/llama.png"
+                                alt="Llamas"
+                                width="100%"
+                                height="100%"
+                            />
+                        </a>
+                    </div>
+                    <div className="ml-10 mobile-logo">
+                        <a
+                            href="https://app.uniswap.org/#/add/0xF9e1F4EEdE806FDA20f4084d9f9c4c2b36E38e77/0x4200000000000000000000000000000000000006"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                style={{ width: "10vw" }}
+                                className="m-auto"
+                                src="/uni.png"
+                                alt="Uni"
+                                width="100%"
+                                height="100%"
+                            />
+                        </a>
+                    </div>
                 </div>
                 <div style={{ height: "100vh", width: "100vw" }} className="mt-10 p-10">
                     <iframe
