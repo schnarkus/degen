@@ -138,7 +138,7 @@ export default function Home() {
                         </p>
                     </h1>
                     <img
-                        style={{ height: "30vh", width: "auto" }}
+                        style={{ height: "25vh", width: "auto" }}
                         className="m-auto mt-6"
                         src="/baldeggs.gif"
                         alt="BaldEggs"
@@ -207,7 +207,7 @@ export default function Home() {
                                 rel="noopener noreferrer"
                             >
                                 <img
-                                    style={{ height: "15vh", width: "auto" }}
+                                    style={{ height: "10vh", width: "auto" }}
                                     className="m-auto mt-10"
                                     src="/beefy.svg"
                                     alt="beefy"
