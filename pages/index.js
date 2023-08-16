@@ -18,9 +18,9 @@ export default function Home() {
             <NavBar />
             <section id="/" className="h-screen flex grid content-evenly">
                 <div className="m-auto">
-                    <h1 className="text-5xl text-center font-bold mt-20">Degen</h1>
-                    <p className="m-auto mt-2 text-center p-4">
-                        Experienced degen? Faced honeypots and rug pulls?{" "}
+                    <h1 className="text-center mt-20">____________</h1>
+                    <h1 className="md:text-5xl text-5xl text-center font-bold mt-1">Degen</h1>
+                    <p className="m-auto mt-2 md:text-xl text-center p-4">
                         <a
                             href="https://optimistic.etherscan.io/address/0xf9e1f4eede806fda20f4084d9f9c4c2b36e38e77"
                             target="_blank"
@@ -28,18 +28,21 @@ export default function Home() {
                             className="rounded-md hover:bg-red-600 transition duration-300 ease-in-out"
                         >
                             $DGN
-                        </a>{" "}
-                        redefines your degen journey!
+                        </a>
+                        : The ultimate safe haven tailored for crypto degenerates, offering thrills
+                        without the risks of honeypots or rug pulls.
                     </p>
-                    <p className="m-auto mt-2 text-xl text-center font-bold">
-                        Experience Price Impact
+                    <p className="m-auto mt-2 md:text-3xl text-3xl text-center font-bold">
+                        Price Impact
                     </p>
-                    <p className="m-auto text-center p-4">
+                    <p className="m-auto md:text-xl text-center p-4">
                         Designed with deliberate low liquidity, every $20 buy sends shockwaves
                         through the chart, instantly displaying the price impact.
                     </p>
-                    <p className="m-auto mt-2 text-xl text-center font-bold">Unlock Rewards</p>
-                    <p className="m-auto text-center p-4">
+                    <p className="m-auto mt-2 md:text-3xl text-3xl text-center font-bold">
+                        Unlock Rewards
+                    </p>
+                    <p className="m-auto md:text-xl text-center p-4">
                         Stake your tokens and unlock a world of rewards. Our robust staking
                         empowers you to reap the benefits for an entire year.
                     </p>
