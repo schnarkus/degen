@@ -30,11 +30,7 @@ export default function Staking() {
         },
     })
 
-    const {
-        runContractFunction: stake,
-        isLoading,
-        isFetching,
-    } = useWeb3Contract({
+    const { runContractFunction: stake, isLoading } = useWeb3Contract({
         abi: stakingAbi,
         contractAddress: stakeAddress,
         functionName: "stake",
@@ -125,7 +121,7 @@ export default function Staking() {
                                     onError: (error) => console.log(error),
                                 })
                             }}
-                            disabled={isLoading || isFetching}
+                            disabled={approvalIsLoading}
                         >
                             {approvalIsLoading ? (
                                 <div className="animate-spin spinner-border h-6 w-6 border-b-2 rounded-full"></div>
@@ -145,9 +141,9 @@ export default function Staking() {
                                     onError: (error) => console.log(error),
                                 })
                             }}
-                            disabled={isLoading || isFetching}
+                            disabled={isLoading}
                         >
-                            {isLoading || isFetching ? (
+                            {isLoading ? (
                                 <div className="animate-spin spinner-border h-6 w-6 border-b-2 rounded-full"></div>
                             ) : (
                                 "Stake"
@@ -168,7 +164,7 @@ export default function Staking() {
                                     onError: (error) => console.log(error),
                                 })
                             }}
-                            disabled={isLoading || isFetching || getRewardIsLoading}
+                            disabled={getRewardIsLoading}
                         >
                             {getRewardIsLoading ? (
                                 <div className="animate-spin spinner-border h-6 w-6 border-b-2 rounded-full"></div>
@@ -184,7 +180,7 @@ export default function Staking() {
                                     onError: (error) => console.log(error),
                                 })
                             }}
-                            disabled={isLoading || isFetching || exitIsLoading}
+                            disabled={exitIsLoading}
                         >
                             {exitIsLoading ? (
                                 <div className="animate-spin spinner-border h-6 w-6 border-b-2 rounded-full"></div>

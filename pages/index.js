@@ -1,6 +1,7 @@
 import Head from "next/head"
 import NavBar from "../components/NavBar"
 import Staking from "../components/Staking"
+import Minting from "../components/Minting"
 import { useMoralis } from "react-moralis"
 
 const supportedChains = ["10"]
@@ -227,6 +228,24 @@ export default function Home() {
                             {supportedChains.includes(parseInt(chainId).toString()) ? (
                                 <div className="flex flex-row">
                                     <Staking className="p-8" />
+                                </div>
+                            ) : (
+                                <div>{`Please switch to OP, Chain ID: ${supportedChains}`}</div>
+                            )}
+                        </div>
+                    ) : (
+                        <div>Please connect to a Wallet</div>
+                    )}
+                </div>
+            </section>
+            <section id="apes" className="h-screen flex text-center">
+                <div className="m-auto">
+                    <h1 className="text-5xl font-bold">Degen Apes</h1>
+                    {isWeb3Enabled ? (
+                        <div>
+                            {supportedChains.includes(parseInt(chainId).toString()) ? (
+                                <div className="flex flex-row">
+                                    <Minting className="p-8" />
                                 </div>
                             ) : (
                                 <div>{`Please switch to OP, Chain ID: ${supportedChains}`}</div>
