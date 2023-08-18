@@ -238,9 +238,9 @@ export default function Home() {
                     )}
                 </div>
             </section>
-            <section id="apes" className="h-screen flex text-center">
+            <section id="punks" className="h-screen flex text-center">
                 <div className="m-auto">
-                    <h1 className="text-5xl font-bold">Degen Apes</h1>
+                    <h1 className="text-5xl font-bold">Degen Punks</h1>
                     {isWeb3Enabled ? (
                         <div>
                             {supportedChains.includes(parseInt(chainId).toString()) ? (

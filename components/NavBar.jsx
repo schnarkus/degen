@@ -71,8 +71,8 @@ function NavBar() {
                                     </a>
                                 </li>
                                 <li className="pb-2 text-xl  py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-blue-900  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">
-                                    <a href="#apes" onClick={() => setNavbar(!navbar)}>
-                                        Apes
+                                    <a href="#punks" onClick={() => setNavbar(!navbar)}>
+                                        Punks
                                     </a>
                                 </li>
                                 <li className="pb-2 text-xl  py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-blue-900  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">

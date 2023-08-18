@@ -117,9 +117,9 @@ export default function Minting() {
                             className="py-2 px-4 rounded text-black mx-1"
                         />
                     </div>
-                    <div className="mt-6">
+                    <div className="mt-10">
                         <a
-                            href={"https://opensea.io/collection/dgn-apes"}
+                            href={"https://opensea.io/collection/dgn-punks"}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
