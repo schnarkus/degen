@@ -117,7 +117,7 @@ export default function Home() {
                         style={{ height: "20vh", width: "auto" }}
                         className="m-auto mt-6"
                         src="/frog2.png"
-                        alt="frog"
+                        alt="Frog"
                         width="100%"
                         height="100%"
                     />
@@ -200,23 +200,32 @@ export default function Home() {
             <section id="community" className="h-screen flex text-center">
                 <div className="m-auto">
                     <div>
-                        <p className="text-5xl font-bold">
-                            Most degens hang out here:&nbsp;
+                        <p className="text-5xl font-bold">Most degens hang out here:&nbsp;</p>
+                        <div className="flex justify-center mt-10">
+                            <a
+                                href="https://discord.com/invite/beefyfinance"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mr-4"
+                            >
+                                <img
+                                    className="m-auto h-20 w-20 rounded-full"
+                                    src="/discord.svg"
+                                    alt="Discord"
+                                />
+                            </a>
                             <a
                                 href="https://discord.com/invite/beefyfinance"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 <img
-                                    style={{ height: "10vh", width: "auto" }}
-                                    className="m-auto mt-10"
-                                    src="/beefy.svg"
-                                    alt="beefy"
-                                    width="100%"
-                                    height="100%"
+                                    className="m-auto h-20 w-20 rounded-full"
+                                    src="/beefy.png"
+                                    alt="Beefy"
                                 />
                             </a>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -70,7 +70,7 @@ export default function Staking() {
     async function updateUIValues() {
         const rewardRateFromCallBigNumber = await getRewardRate()
         const rewardRateFromCall = parseFloat(
-            ethers.utils.formatUnits(rewardRateFromCallBigNumber, 18)
+            ethers.utils.formatUnits(rewardRateFromCallBigNumber, 18),
         )
         setRewardRate(rewardRateFromCall)
         const totalStakedAmountBigNumber = await totalStaked()

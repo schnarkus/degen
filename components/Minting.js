@@ -117,19 +117,24 @@ export default function Minting() {
                             className="py-2 px-4 rounded text-black mx-1"
                         />
                     </div>
-                    <div className="mt-10">
+                    <div className="flex justify-center mt-10">
+                        <a
+                            href={"https://opensea.io/collection/dgn-punks"}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mr-4"
+                        >
+                            <img className="h-20 w-20" src="/opensea.svg" alt="OpenSea" />
+                        </a>
                         <a
                             href={"https://opensea.io/collection/dgn-punks"}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img
-                                style={{ height: "10vh", width: "auto" }}
-                                className="m-auto"
-                                src="/opensea.svg"
-                                alt="OpenSea"
-                                width="100%"
-                                height="100%"
+                                className="h-20 w-20 rounded-full"
+                                src="/punks.gif"
+                                alt="Degen Punks"
                             />
                         </a>
                     </div>

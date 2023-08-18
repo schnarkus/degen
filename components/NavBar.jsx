@@ -11,7 +11,7 @@ function NavBar() {
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
                             <Link href="/">
-                                <img src="/ape.png" width={30} height={30} alt="ape" />
+                                <img src="/ape.png" width={30} height={30} alt="Ape" />
                             </Link>
                             <div className="md:hidden">
                                 <button
@@ -19,13 +19,13 @@ function NavBar() {
                                     onClick={() => setNavbar(!navbar)}
                                 >
                                     {navbar ? (
-                                        <img src="/close.svg" width={30} height={30} alt="logo" />
+                                        <img src="/close.svg" width={30} height={30} alt="Logo" />
                                     ) : (
                                         <img
                                             src="/menu.svg"
                                             width={30}
                                             height={30}
-                                            alt="logo"
+                                            alt="Logo"
                                             className="focus:border-none active:border-none"
                                         />
                                     )}
@@ -86,7 +86,7 @@ function NavBar() {
                                             src="/frog.png"
                                             width={30}
                                             height={30}
-                                            alt="frog"
+                                            alt="Frog"
                                             className="focus:border-none active:border-none m-auto"
                                         />
                                     </a>
