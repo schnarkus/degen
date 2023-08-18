@@ -117,7 +117,7 @@ export default function Minting() {
                             className="py-2 px-4 rounded text-black mx-1"
                         />
                     </div>
-                    <div className="flex justify-center mt-10">
+                    <div className="flex justify-center mt-4">
                         <a
                             href={"https://opensea.io/collection/dgn-punks"}
                             target="_blank"
