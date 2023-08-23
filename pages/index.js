@@ -14,12 +14,27 @@ export default function Home() {
             <Head>
                 <title>Degen</title>
                 <meta name="description" content="The future of the future of finance" />
+
+                <meta itemprop="name" content="Degen" />
+                <meta itemprop="description" content="The future of the future of finance" />
+                <meta itemprop="image" content="https://dgn.wtf/logo.svg" />
+
+                <meta property="og:url" content="https://dgn.wtf" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Degen" />
+                <meta property="og:description" content="The future of the future of finance" />
+                <meta property="og:image" content="https://dgn.wtf/logo.svg" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Degen" />
+                <meta name="twitter:description" content="The future of the future of finance" />
+                <meta name="twitter:image" content="https://dgn.wtf/logo.svg" />
                 <a rel="icon" href="/favicon.ico" />
             </Head>
             <NavBar />
             <section id="/" className="h-screen flex grid content-evenly">
                 <div className="m-auto">
-                    <h1 className="text-center mt-20">____________</h1>
+                    <h2 className="text-center mt-20">____________</h2>
                     <h1 className="md:text-5xl text-5xl text-center font-bold mt-1">Degen</h1>
                     <p className="m-auto mt-2 md:text-xl text-center p-4">
                         <a
@@ -108,11 +123,11 @@ export default function Home() {
             </section>
             <section id="audit" className="h-screen flex">
                 <div className="m-auto">
-                    <h1 className="text-3xl text-center font-bold p-6">
+                    <h2 className="text-3xl text-center font-bold p-6">
                         &quot;Owner who can do nothing is renounced. So now 0x00 address can do
                         nothing. Until 0x00 pk is leaked.&quot;
-                    </h1>
-                    <h1 className="text-center">-wiso, 2023</h1>
+                    </h2>
+                    <h3 className="text-center">-wiso, 2023</h3>
                     <img
                         style={{ height: "20vh", width: "auto" }}
                         className="m-auto mt-6"
@@ -125,7 +140,7 @@ export default function Home() {
             </section>
             <section id="frens" className="h-screen text-center flex">
                 <div className="m-auto">
-                    <h1 className="text-5xl font-bold">
+                    <h2 className="text-5xl font-bold">
                         <p>
                             Check out:&nbsp;
                             <a
@@ -137,7 +152,7 @@ export default function Home() {
                                 BaldEggs
                             </a>
                         </p>
-                    </h1>
+                    </h2>
                     <img
                         style={{ height: "25vh", width: "auto" }}
                         className="m-auto mt-6"
@@ -150,7 +165,7 @@ export default function Home() {
             </section>
             <section id="roadmap" className="h-screen flex">
                 <div className="m-auto">
-                    <h1 className="text-5xl font-bold">Roadmap</h1>
+                    <h2 className="text-5xl font-bold">Roadmap</h2>
                     <div>
                         <p className="text-3xl mt-6">
                             1. Mint 42069{" "}
@@ -231,7 +246,7 @@ export default function Home() {
             </section>
             <section id="staking" className="h-screen flex text-center">
                 <div className="m-auto">
-                    <h1 className="text-5xl font-bold">Staking</h1>
+                    <h2 className="text-5xl font-bold">Staking</h2>
                     {isWeb3Enabled ? (
                         <div>
                             {supportedChains.includes(parseInt(chainId).toString()) ? (
@@ -249,7 +264,7 @@ export default function Home() {
             </section>
             <section id="punks" className="h-screen flex text-center">
                 <div className="m-auto">
-                    <h1 className="text-5xl font-bold">Degen Punks</h1>
+                    <h2 className="text-5xl font-bold">Degen Punks</h2>
                     {isWeb3Enabled ? (
                         <div>
                             {supportedChains.includes(parseInt(chainId).toString()) ? (
