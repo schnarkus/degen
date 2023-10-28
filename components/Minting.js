@@ -119,7 +119,7 @@ export default function Minting() {
                     </div>
                     <div className="flex justify-center mt-4">
                         <a
-                            href={"https://opensea.io/collection/dgn-punks"}
+                            href={"https://opensea.io/"}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="mr-4"

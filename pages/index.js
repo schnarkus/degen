@@ -230,7 +230,7 @@ export default function Home() {
                                 />
                             </a>
                             <a
-                                href="https://discord.com/invite/beefyfinance"
+                                href="https://beefy.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
