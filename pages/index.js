@@ -15,9 +15,9 @@ export default function Home() {
                 <title>Degen</title>
                 <meta name="description" content="The future of the future of finance" />
 
-                <meta itemprop="name" content="Degen" />
-                <meta itemprop="description" content="The future of the future of finance" />
-                <meta itemprop="image" content="https://dgn.wtf/logo.svg" />
+                <meta itemProp="name" content="Degen" />
+                <meta itemProp="description" content="The future of the future of finance" />
+                <meta itemProp="image" content="https://dgn.wtf/logo.svg" />
 
                 <meta property="og:url" content="https://dgn.wtf" />
                 <meta property="og:type" content="website" />
